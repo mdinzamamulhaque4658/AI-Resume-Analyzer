@@ -6,7 +6,7 @@ from flask_cors import CORS # type: ignore
 
 # Load API key from .env file
 load_dotenv()
-genai.configure(api_key=os.getenv("AIzaSyCQSWraJEnFEcdqd1tBrKFDoLjjLCBQAZY"))
+genai.configure(api_key=os.getenv("YOUR API KEY HERE"))
 
 app = Flask(__name__)
 CORS(app)
